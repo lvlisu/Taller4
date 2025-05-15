@@ -5,7 +5,7 @@ import streamlit as st
 import pickle
 import numpy as np
 
-st.title("GPA de la universidad según el GPA de la ecundaria, la edad del estudiante y el puntaje de ACT")
+st.title("GPA de la universidad según el GPA de la secundaria, la edad del estudiante y el puntaje de ACT")
 tab1, tab2, tab3 = st.tabs(["Análisis Univariado","Análisis Bivariado", "Análisis interactivo"])
 datos = pd.read_csv("wooldridge.csv")
 
